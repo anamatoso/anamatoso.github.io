@@ -15,7 +15,7 @@ header:
     - name: About
       slug: /
     - name: Work
-      slug: /projects
+      slug: /work
     #- name: Blog
     - name: CV
       slug: /CV
