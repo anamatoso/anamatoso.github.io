@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: projects
 title: Projects
 slug: /projects
 
