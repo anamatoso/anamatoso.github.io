@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Work
+title: Projects
 slug: /work
 ---
 
