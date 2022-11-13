@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Projects
-slug: /work
+slug: /projects
 ---
 
 <p>I'm keen on: </p>
