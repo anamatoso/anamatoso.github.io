@@ -1,8 +1,10 @@
 ---
 layout: work
-title: Projects
+title: Skills
 slug: /projects
 ---
+
+
 
 <p>I'm keen on: </p>
 <p>
@@ -13,6 +15,7 @@ slug: /projects
 <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" /> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" /> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" /> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
 </p>
 
+These skills were aquired by being engaged and participating in 
 
 
 <div class="timeline">
