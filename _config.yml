@@ -16,7 +16,7 @@ header:
       slug: /
     - name: Work
     - name: Blog
-    - name: CV_AnaMatoso.html
+    - name: CV
       slug: /CV
 
 footer:
