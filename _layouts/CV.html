@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
-<embed
-    src="/assets/CV_AnaMatoso.pdf"
-    type="application/pdf"
-    frameBorder="0"
-    scrolling="auto"
-    height="100%"
-    width="100%"
-></embed>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="blog">
+          <h1 class="page-heading">{{ page.title }}</h1>
+          {{ content }}
+
+          <embed
+          src="/assets/CV_AnaMatoso.pdf"
+          type="application/pdf"
+          frameBorder="0"
+          scrolling="auto"
+          height="100%"
+          width="100%"
+      ></embed>
+      
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
 </html>
