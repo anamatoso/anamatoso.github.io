@@ -14,7 +14,7 @@ slug: /projects
 </p>
 
 
-<div class="center"> 
+
 <div class="timeline">
   <div class="outer">
     <div class="card">
@@ -48,7 +48,6 @@ slug: /projects
       </div>
     </div>
   </div>
-</div>
 </div>
 
 
