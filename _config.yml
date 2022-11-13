@@ -17,6 +17,7 @@ header:
     - name: Work
     - name: Blog
     - name: CV
+      slug: /CV.html
 
 footer:
   show_powered_by: false
