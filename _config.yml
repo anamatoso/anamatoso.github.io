@@ -14,7 +14,7 @@ header:
   pages:
     - name: About
       slug: /
-    - name: Projects
+    - name: Work
     #- name: Blog
     - name: CV
       slug: /CV
