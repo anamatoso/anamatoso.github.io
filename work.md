@@ -5,7 +5,6 @@ slug: /projects
 ---
 
 
-
 <div class="timeline">
   <div class="outer">
     <div class="card">
