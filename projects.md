@@ -39,7 +39,7 @@ slug: /projects
     </div>
     <div class="card">
       <div class="info">
-        <h3 class="title">Feb 2020 - Jun 2020: Heart Rate and Pulse Transit Time Sensor usinf PPG and ECG</h3>
+        <h3 class="title">Feb 2020 - Jun 2020: Heart Rate and Pulse Transit Time Sensor using PPG and ECG</h3>
         <p>This project's main goal was to develop a sensor that could calculate the heart rate and pulse transit time in real time. To that end, an Arduino Uno was used as well as ECG and PPG sensors. Real time processing (using Arduino) and post processing (using MATLAB) approaches were compared.</p>
         <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" /> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /> </p>
       </div>
