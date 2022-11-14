@@ -4,6 +4,8 @@ title: Projects
 slug: /projects
 ---
 
+<p>These are some of the projects that I have worked on throughout the years. Most of them are in my <a href="https://github.com/anamatoso">Github page</a>.</p>
+
 <div class="timeline">
   <div class="outer">
     <div class="card">
