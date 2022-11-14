@@ -4,14 +4,13 @@ title: Projects
 slug: /projects
 ---
 
-
 <div class="timeline">
   <div class="outer">
     <div class="card">
       <div class="info">
         <h3 class="title">2022 - Master Thesis</h3>
         <p>My master thesis, entitled "Investigating Structural Connectivity in Episodic Migraine using Graph Theory", searches for biomarkers of episodic migraine using DWI data. Then tractography methods are applied and a connectome is made, from which connectivity metrics are analysed.</p>
-        <p><img height="200" src="/assets/img/tractogram.png"/></p>
+        <p><img height="150" src="/assets/img/tractogram.png" class="center"/></p>
         <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /></p>
       </div>
     </div>
