@@ -24,7 +24,7 @@ slug: /projects
     <div class="card">
       <div class="info">
         <h3 class="title">Sep 2021 - Dec 2021: Boat Management system</h3>
-        <p>This project was built in the scope of the course "Information Systems and Databases" and it consisted in the development of SQL queries, integrity constraints and the creation of a web application prototype and OLAP queries.</p>
+        <p>This project was built in the scope of the course "Information Systems and Databases" and it consisted in the development of a database model, of writing SQL queries and OLAP queries, integrity constraints, and the creation of a web application prototype.</p>
         <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /></p>
       </div>
     </div>
