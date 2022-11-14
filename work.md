@@ -39,7 +39,7 @@ slug: /projects
         <h3 class="title">Feb 2021 - Jun 2012: Sleep Stage Classification</h3>
         <p>This project was made in the scope of the course "Signal Processing in Bioengineering" and aimed at the classification of sleep stages from multi-modal Polysomnogram (PSG) recordings. Preprocessing techniques were evaluated, namely ICA vs conventional filtering, and a support vector machines algorithm was used for the classification.
         The final minipaper can be found on the LaSEEB's <a href="https://wiki.laseeb.org/attachments/download/137/G6%20Sleep%20Stage%20Classification.pdf">website</a>.</p>
-        <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /></p>
+        <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /></p>
       </div>
     </div>
     <div class="card">
