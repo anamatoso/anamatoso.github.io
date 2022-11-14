@@ -26,7 +26,7 @@ slug: /projects
       <div class="info">
         <h3 class="title">Sep 2021 - Dec 2021: Machine Learning Project</h3>
         <p>This project entailed the resolution of several machine learning problems not only of regression but also of classification. The following algorithms were used: Linear/Lasso/Ridge Regression, Linear Support Vector Regression, Stochastic Gradient Descent, Gaussian Processes, Convolutional Neural Networks, Multilayer Perceptron, Support Vector Machine, Random Forest and k-Nearest Neighbours. Additionally, k-fold cross validation, outlier detection and ensemble learning were also used. </p>
-        <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /> <img width="40" src="assets/img/icons/scikit.png" /> </iconify-icon> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /> </p>
+        <p>Skills: <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /> <img width="40" src="/assets/img/icons/scikit.png" /> </iconify-icon> <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /> </p>
       </div>
     </div>
     <div class="card">
