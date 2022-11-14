@@ -20,7 +20,7 @@
 
 /* Outer Layer with the timeline border */
 .outer {
-  border-left: 2px solid #333;
+  border-left: 2px solid rgb(0, 0, 0);
 }
 
 /* Card container */
@@ -28,8 +28,8 @@
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
-  background: #333;
-  color: gray;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 8px;
   max-width: 400px;
 }
@@ -43,7 +43,7 @@
 
 /* Title of the card */
 .title {
-  color: orangered;
+  color: rgb(181, 28, 17);
   position: relative;
 }
 
@@ -56,5 +56,5 @@
   background: white;
   border-radius: 999px;
   left: -39px;
-  border: 3px solid orangered;
+  border: 3px solid rgb(181, 28, 17);
 }
