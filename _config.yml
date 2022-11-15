@@ -20,8 +20,8 @@ header:
     - name: CV
       slug: /CV
 
-var user = 'anamatoso92',
-    domain = 'gmail.com';
+user: 'anamatoso92'
+domain: 'gmail.com'
 
 footer:
   show_powered_by: false
