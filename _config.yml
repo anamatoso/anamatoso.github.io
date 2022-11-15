@@ -20,15 +20,12 @@ header:
     - name: CV
       slug: /CV
 
-user: 'anamatoso92'
-domain: 'gmail.com'
-
 footer:
   show_powered_by: false
   contact:
     - name: Email
       value: Email
-      link: 'mailto:'+user+'@'+domain
+      link: mailto:anamatoso92@gmail.com
 
   follow:
     - name: LinkedIn
