@@ -28,7 +28,7 @@ footer:
   contact:
     - name: Email
       value: Email
-      link: mailto: user + '@' + domain
+      link: 'mailto:'+user+'@'+domain
 
   follow:
     - name: LinkedIn
