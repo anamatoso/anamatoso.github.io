@@ -11,7 +11,7 @@
   {% if page.title %}
     {% assign page_title = page_title | append: site.title | append: " | " | append: page.title %}
   {% else %}
-    {% assign page_title = page.title %}
+    {% assign page_title = site.title %}
   {% endif %}
 
   {% assign page_description = "" %}
