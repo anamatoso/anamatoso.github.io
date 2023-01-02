@@ -1,6 +1,11 @@
 ---
 layout: work
 title: Projects
+subfolderitems:
+  - page: Programming
+    url: /programming
+  - page: Creative
+    url: /creative
 slug: /projects
 ---
 
