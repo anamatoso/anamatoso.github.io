@@ -1,6 +1,7 @@
 ---
 layout: work
 title: Programming
+parent: Projects
 slug: /programming
 ---
 
