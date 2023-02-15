@@ -186,8 +186,8 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(1300px - (#{$spacing-unit}));
-    max-width:         calc(1300px - (#{$spacing-unit}));
+    max-width: -webkit-calc(1250px - (#{$spacing-unit}));
+    max-width:         calc(1250px - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
