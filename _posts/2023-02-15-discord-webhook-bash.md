@@ -10,7 +10,7 @@ og_image: /assets/img/content/webhook_discord.png
 <img src="{{ "/assets/img/content/webhook_discord.png" | absolute_url }}" class="post-pic"/>
 
 <br />
-<br />
+
 
 # Table of Contents
 1. [Introduction](#Introduction)
@@ -19,7 +19,7 @@ og_image: /assets/img/content/webhook_discord.png
 4. [Add to the script you want to monitor](#Add-to-the-script-you-want-to-monitor)
 4. [Disclosure](#Disclosure)
 
-<br /><br />
+<br />
 
 # Introduction
 Discord is a popular messaging platform used by many teams for communication and collaboration. One of the useful features of Discord is the ability to create webhooks, which can be used to send messages to a channel in real-time using a bot. In this blog post, we will explore how to design a webhook on Discord to alert us when a Bash script ends running.
@@ -33,7 +33,7 @@ Now, let's assume we have a Bash script that we want to monitor. We want to rece
 2. Create the script that will send the message to discord channel;
 3. Add the execution of this script on the end of the script you want to monitor.
 
-<br /><br />
+<br />
 
 # Discord Settings
 To create the webhook follow the instructions below:
@@ -46,7 +46,7 @@ To create the webhook follow the instructions below:
 
 The webhook will have a **webhook URL** that you will need later.
 
-<br /><br />
+<br />
 
 # Create the bash script to send a message to discord
 Now that we have a webhook set up in Discord, we need to create a Bash script to send the notification when the script you want to monitor has finished running. Here is a sample script:
@@ -64,7 +64,7 @@ In this script, we use the curl command to send a message to the webhook URL we 
 You will need to **replace** "YOUR_WEBHOOK_URL" with the actual webhook URL that you got from the previous section.
 In this case, the message will be the arguments that will be passed in the script.
 
-<br /><br />
+<br />
 
 
 # Add to the script you want to monitor
