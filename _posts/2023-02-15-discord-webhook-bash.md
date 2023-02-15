@@ -77,9 +77,13 @@ PATH/TO/FILE/finish_message.sh MESSAGE
 And that's it. Now everytime the script finishes, it will send MESSAGE to the channel you selected in the discord webhook.
 
 As a final note, if you want to tag someone in the message then you will need to:
-1. Go to the advanced settings on discord and enable developer mode;
-2. Find the person you want to tag and press with a right click on their profile and select "copy ID" (this options will only show up if you complete 1.)
-3. To tag the person in the message, write "<@PERSON_ID>" where PERSON_ID is the ID you copied. Note that the inverted commas are mandatory.
+1. Go to the advanced settings on discord and enable developer mode (for more information and pictures see this [link](https://www.businessinsider.com/guides/tech/discord-id));
+2. Find the person you want to tag and press with a right click on their profile and select "copy ID" (this options will only show up if you complete 1.);
+3. To tag the person in the message, write "<@PERSON_ID>" where PERSON_ID is the ID you copied. Note that the inverted commas are mandatory. Example: "<@80351110224678912>". 
+
+Note you can also tag roles, channels, to see how, check this [link](https://discord.com/developers/docs/reference#message-formatting-formats).
+
+
 
 <br /><br />
 
