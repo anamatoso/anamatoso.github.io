@@ -7,7 +7,7 @@ blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/webhook_discord.png
 ---
 
-<img src= "/Users/ana/Documents/Ana/anamatoso.github.io/assets/img/content/webhook_discord.png" class="post-pic" width=80%/>
+<img src= "/assets/img/content/webhook_discord.png" class="post-pic" width=80% class="center"/>
 <br />
 <br />
 
