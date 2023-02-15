@@ -4,6 +4,7 @@ title:  "Creating a webhook in Discord to notify when a bash script has finished
 date:   2023-02-15 10:00:40
 draft: false
 blurb: "A look at an example post using Bay Jekyll theme."
+og_image: /Users/ana/Documents/Ana/anamatoso.github.io/assets/img/content/webhook_discord.png
 ---
 
 
