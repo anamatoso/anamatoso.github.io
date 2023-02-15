@@ -3,8 +3,7 @@ layout: post
 title:  "Creating a webhook in Discord to notify when a bash script has finished running"
 date:   2023-02-15 10:00:40
 draft: false
-#blurb: "A look at an example post using Bay Jekyll theme."
-#og_image: /assets/img/content/post-example/Banner.jpg
+blurb: "A look at an example post using Bay Jekyll theme."
 ---
 
 
