@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating a webhook in Discord to notify when a bash script has finished running"
-date:   2023-02-15 10:00:40
+date:   2023-02-13 10:00:40
 draft: false
 og_image: /assets/img/content/webhook_discord.png
 ---
