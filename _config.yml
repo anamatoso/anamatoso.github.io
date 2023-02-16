@@ -20,6 +20,8 @@ header:
       slug: /blog
     - name: CV
       slug: /CV
+    - name: Contact
+      slug: /contact
 
 footer:
   show_powered_by: false
