@@ -35,3 +35,10 @@ $("a#wechat-link").on("mousemove", function(event) {
 $("a#wechat-link").on("mouseleave", function(event) {
   $("#wechat-widget").css({ display: "none" });
 });
+
+
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}

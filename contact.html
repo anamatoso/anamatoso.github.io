@@ -4,48 +4,25 @@ title: Contact Me
 slug: /contact
 ---
 
-<form
-  action="https://formspree.io/f/xeqwayrj"
-  method="POST"
->
-<label>
-    Your Name:
-    <input type="text" name="name" size="30">
-  </label>
-  <br />
-  <label>
-    Your email:
-    <input type="email" name="email" size="30">
-  </label>
-  <br />
-  <br />
-  <label>
-    Your message:
+<form action="https://formspree.io/f/xeqwayrj" method="POST">
+    <label>
+        <input type="text" name="name" placeholder="Your Name" size="30">
+    </label>
+    <br /><br />
+    <label>
+        <input type="email" name="email" placeholder="Your Email" size="30">
+    </label>
+    <br /><br />
+    <label>
+        <input name="subject" placeholder="Subject" size="30">
+    </label>
     <br />
-    <textarea name="message" rows="15" cols="70%"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <br />
-  <button type="submit">Submit</button>
+    <br />
+    <label>
+        <br />
+        <textarea name="message" placeholder="Your message" rows="15" cols="70%"></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <br />
+    <button type="submit">Submit</button>
 </form>
-
-<!-- 
-<div class="container">
-    <form target="https://anamatoso.github.io/" action="https://formsubmit.co/anamatoso92@gmail.com" method="POST">
-      <div class="form-group">
-        <div class="form-row">
-          <div class="col">
-            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-          </div>
-          <div class="col">
-            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-    </form>
-  </div>
-  -->
