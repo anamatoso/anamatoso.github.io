@@ -2,31 +2,6 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h4>CONTACT</h4>
-
-        <div class="social-links">
-          {% for contact in site.footer.contact %}
-            <div class="social-link contact-links">
-
-              {% assign contact_icon_path = "/assets/img/icons/" | append: contact.name | downcase | append: ".png" | absolute_url %}
-              <img
-                src="{{ contact_icon_path }}"
-                alt="{{ contact.name | downcase }}"
-              />
-              <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link" target="_blank" rel="noopener noreferrer">
-                {% if contact.value and contact.value != "" and contact.value != nil %}
-                  {{ contact.value }}
-                {% else %}
-                  {{ contact.name }}
-                {% endif %}
-              </a>
-            </div>
-
-          {% endfor %}
-        </div>
-      </div>
-
-      <div class="footer-col footer-col-2">
         <h4>FOLLOW</h4>
 
         <div class="social-links follow-links">
@@ -51,12 +26,18 @@
         </div>
       </div>
 
+      <div class="footer-col footer-col-2">
+        <h4>FOLLOW</h4>
+
+        <div class="social-links follow-links">
+          <p>
+            Last updated on Fev 16, 2023.
+          </p>
+      </div>
+
       <div class="footer-col footer-col-3 powered-by">
         <p>
           Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a>'s <a href="https://github.com/eliottvincent/bay" target="_blank" rel="noopener noreferrer">Bay</a> theme.
-        </p>
-        <p>
-          Last updated on Dec 10, 2022.
         </p>
       </div>
 
