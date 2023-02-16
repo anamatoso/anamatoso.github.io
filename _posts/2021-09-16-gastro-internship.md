@@ -44,8 +44,3 @@ I also learned a great deal about the equipment used and the steps involved in e
 # Conclusion
 
 Overall, my experience at the gastroenterology techniques unit at Hospital de Santa Maria was an incredibly valuable one. I learned so much about the equipment and techniques used to identify and treat gastrointestinal diseases, as well as the importance of technical skills and interdisciplinary collaboration. I am grateful for the opportunity to have observed such skilled professionals at work and I am sure that this experience will stay with me throughout my career as a biomedical engineer.
-
-<br /><br />
-
-## Disclosure
-Part of this text was edited using AI.

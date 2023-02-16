@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating a webhook in Discord to notify when a bash script has finished running"
-date:   2022-12-10 10:00:40
+date:   2023-02-15 10:00:40
 draft: false
 og_image: /assets/img/content/webhook_discord.png
 ---
@@ -82,11 +82,3 @@ As a final note, if you want to tag someone in the message then you will need to
 3. To tag the person in the message, write "<@PERSON_ID>" where PERSON_ID is the ID you copied. Note that the inverted commas are mandatory. Example: "<@80351110224678912>". 
 
 Note you can also tag roles, channels, to see how, check this [link](https://discord.com/developers/docs/reference#message-formatting-formats).
-
-
-
-<br /><br />
-
-
-## Disclosure
-Part of these instructions were written using AI.
