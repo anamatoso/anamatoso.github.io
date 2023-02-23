@@ -90,5 +90,5 @@ PATH/TO/FILE/finish_message.sh MESSAGE
 2. Find the person you want to tag and press with a right click on their profile and select "copy ID" (this options will only show up if you complete 1.);
 3. To tag the person in the message, write "<@PERSON_ID>" where PERSON_ID is the ID you copied. Note that the inverted commas are mandatory. Example: "<@80351110224678912>". 
 
-<p align="justify">Note you can also tag roles, channels, to see how, check this [link](https://discord.com/developers/docs/reference#message-formatting-formats).
+<p align="justify">Note you can also tag roles, channels, to see how, check this <a href="https://discord.com/developers/docs/reference#message-formatting-formats">link</a>.
 </p>
