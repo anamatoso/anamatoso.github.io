@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating a webhook in Discord to notify when a bash script has finished running"
+title:  "How to create a webhook in Discord to notify when a bash script has finished running"
 date:   2023-02-15 10:00:40
 draft: false
 og_image: /assets/img/content/webhook_discord.png
@@ -16,7 +16,7 @@ og_image: /assets/img/content/webhook_discord.png
 2. [Discord Settings](#Discord-Settings)
 3. [Create the bash script to send a message to discord](#Create-the-bash-script-to-send-a-message-to-discord)
 4. [Add to the script you want to monitor](#Add-to-the-script-you-want-to-monitor)
-4. [Disclosure](#Disclosure)
+
 
 <br />
 

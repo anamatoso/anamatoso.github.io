@@ -1,20 +1,19 @@
 ---
 layout: post
-title:  "Observational internship in Hospital de Santa Maria"
-date:   2021-09-16 10:00:40
-draft: false
-og_image: /assets/img/content/gastro_internship.jpg
+title:  "How to change the terminal user format"
+date:   2022-01-26 10:00:40
+draft: true
+#og_image: /assets/img/content/gastro_internship.jpg
 ---
 
-<img src="{{ "/assets/img/content/gastro_internship.jpg" | absolute_url }}" class="post-pic"/>
 
 <br />
 
 
 # Table of Contents
 1. [Introduction](#Introduction)
-2. [Observing Procedures at the Unit](#Observing-Procedures-at-the-Unit)
-3. [Learning Outcomes](#Learning_Outcomes)
+2. [](#)
+3. [](#)
 4. [Conclusion](#Conclusion)
 
 
