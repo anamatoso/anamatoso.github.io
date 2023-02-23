@@ -25,18 +25,40 @@ As a student of biomedical engineering at Instituto Superior Técnico, I have al
 
 <br />
 
-# Observing Procedures at the Unit
+# 
 
-From the very first day of my internship, I was given the opportunity to observe a wide range of procedures, from endoscopies and colonoscopies to biopsies and other diagnostic tests. I was astonished by the amount of procedures that were done in a day. Nevertheless, the medical professionals were very welcoming are were always pleased to explain what was happening.
+To modify the shell prompt we first need to open the following file: 
+```bash 
+~/.bashrc 
+```
+In this file, scroll down until you find the line that starts with: 
+```
+PS1=
+```
+
+This line is the one that establishes the format of the shell prompt and the one to change. Thus, if you want, make a copy of it (or of the whole file) for safekeeping.
+
 
 
 <br />
 
-# Learning Outcomes
+# 
 
-Throughout the internship, I learned how communication is key between medical professionals so that everyone is on the same page whilst performing the procedures. Furthermore, I also learned new ways of how technology can be applied in the medical field that would be of benefit in the gastroenterology field.
+```
+export CLICOLOR=1
+export LSCOLORS=ExGxBxDxCxegedabagaced
+PS1="[\[$(tput setaf 10)\]\u\[$(tput setaf 11)\]@\[$(tput setaf 9)\]\h\[$(tput sgr0)\]:\w]\$ "
+```
 
-I also learned a great deal about the equipment used and the steps involved in each procedure. The technical details of the medical equipment were fascinating to me, and I found myself wanting to learn more about the engineering behind the equipment and tools used.
+export CLICOLOR=1
+export LSCOLORS=ExGxBxDxCxegedabagaced
+PS1=[
+    \[$(tput setaf 10)\]\u
+    \[$(tput setaf 11)\]@
+    \[$(tput setaf 9)\]\h
+    \[$(tput sgr0)\]:\w
+    ]\$
+
 
 <br />
 
