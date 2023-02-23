@@ -18,17 +18,12 @@ header:
       slug: /projects
     - name: Blog
       slug: /blog
-    - name: CV
-      slug: /CV
     - name: Contact
       slug: /contact
 
 footer:
   show_powered_by: false
-  contact:
-    - name: Email
-      value: Email
-      link: mailto:anamatoso92@gmail.com
+
 
   follow:
     - name: LinkedIn
