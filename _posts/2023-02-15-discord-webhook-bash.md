@@ -24,11 +24,11 @@ og_image: /assets/img/content/webhook_discord.png
 
 <p align="justify">Discord is a popular messaging platform used by many teams for communication and collaboration. One of the useful features of Discord is the ability to create webhooks, which can be used to send messages to a channel in real-time using a bot. In this blog post, we will explore how to design a webhook on Discord to alert us when a Bash script ends running.
 </p>
-<br />
+
 
 <p align="justify">Before we dive into the details, let's first understand what a webhook is. A webhook is a way for an application to provide other applications with real-time information. It is an HTTP callback that is triggered by an event and sends data to a specific URL. In the specific case of Discord, a webhook can be used to send messages to a specific channel.
 </p>
-<br />
+
 
 <p align="justify">Now, let's assume we have a Bash script that we want to monitor. We want to receive a notification on Discord when the script ends running. There are essencially three main steps:
 </p>
