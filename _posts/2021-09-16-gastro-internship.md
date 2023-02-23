@@ -12,10 +12,10 @@ og_image: /assets/img/content/gastro_internship.jpg
 
 
 # Table of Contents
-1. [Introduction](#Introduction)
-2. [Observing Procedures at the Unit](#Observing-Procedures-at-the-Unit)
-3. [Learning Outcomes](#Learning_Outcomes)
-4. [Conclusion](#Conclusion)
+1. [Introduction](#introduction)
+2. [Observing Procedures at the Unit](#observing-procedures-at-the-unit)
+3. [Learning Outcomes](#learning-outcomes)
+4. [Conclusion](#conclusion)
 
 
 <br />

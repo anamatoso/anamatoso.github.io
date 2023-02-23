@@ -11,10 +11,10 @@ draft: true
 
 
 # Table of Contents
-1. [Introduction](#Introduction)
+1. [Introduction](#introduction)
 2. [](#)
 3. [](#)
-4. [Conclusion](#Conclusion)
+4. [Conclusion](#conclusion)
 
 
 <br />

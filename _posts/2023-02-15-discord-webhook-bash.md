@@ -12,10 +12,10 @@ og_image: /assets/img/content/webhook_discord.png
 
 
 # Table of Contents
-1. [Introduction](#Introduction)
-2. [Discord Settings](#Discord-Settings)
-3. [Create the bash script to send a message to discord](#Create-the-bash-script-to-send-a-message-to-discord)
-4. [Add to the script you want to monitor](#Add-to-the-script-you-want-to-monitor)
+1. [Introduction](#introduction)
+2. [Discord Settings](#discord-settings)
+3. [Create the bash script to send a message to discord](#create-the-bash-script-to-send-a-message-to-discord)
+4. [Add to the script you want to monitor](#add-to-the-script-you-want-to-monitor)
 
 
 <br />
