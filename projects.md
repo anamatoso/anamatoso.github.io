@@ -10,6 +10,13 @@ slug: /projects
   <div class="outer">
     <div class="card">
       <div class="info">
+        <h3 class="title">Jan 2023 - Present: Fixel Based Analysis</h3>
+        <p align="justify">This project aims at finding biomarkers for migraine using the fixel-based analysis pipeline of MRtrix3 and diffusion-weighted magnetic resonance imaging data.</p>
+        <p>Skills: <img alt="bash icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /> <img alt="matlab icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /> </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
         <h3 class="title">Feb 2022 - Dec 2022: Master Thesis</h3>
         <p align="justify">My master thesis, titled "Investigating Structural Connectivity in Episodic Migraine using Graph Theory", searched for biomarkers of episodic migraine using DWI data. Tractography methods were applied and a connectome was made, from which connectivity metrics were analysed and compared.</p>
         <p>Skills: <img alt="bash icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /> <img alt="matlab icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /> <img alt="latex icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" /> <img alt="python icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /> </p>
