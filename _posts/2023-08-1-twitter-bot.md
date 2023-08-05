@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to create a twitter bot"
-date:   2023-02-15 10:00:40
+date:   2023-08-01 10:00:40
 draft: true
 og_image: /assets/img/content/banner_twitterbot.png
 ---
@@ -119,7 +119,9 @@ Now you need to be constantly running this code 24/7 so I would suggest running 
 
 # Bonus Section
 <p align="justify">
-If you want your bot's twitter account to have a shameless plug to your account, having a tag that says it is automated by your account, you only need to follow these steps:
+Firstly, thank you for reading this far!
+
+Now, if you want your bot's twitter account to have a shameless plug to your account, having a tag that says it is automated by your account, you only need to follow these steps:
 
 1. Sign in to your bot's twitter account
 2. On the left panel go to More > Settings and Support > Settings and Privacy
