@@ -3,7 +3,7 @@ layout: post
 title:  "How to make the terminal colourful"
 date:   2022-09-15 10:00:40
 draft: false
-#og_image: /assets/img/content/gastro_internship.jpg
+og_image: /assets/img/content/banner_terminal.png
 ---
 
 
@@ -25,11 +25,13 @@ draft: false
 The shell prompt, the epitome of communication with your computer. While often overlooked, it can be a useful tool to perform tasks faster and more systematically that using the GUI of your PC. Although it is very powerful, looking at it can be quite boring, with its plain formatting. A usual shell prompt is usually something like this:
 <br />
 
-<img src="{{ "/assets/img/content/post-example/macos_terminalOG.png" | absolute_url }}"/>
+<img src="/assets/img/content/post-example/macos_terminalOG.png">
 
 But we're going to make it look like this:
 
-<img src="{{ "/assets/img/content/post-example/macos_terminalafter.png" | absolute_url }}"/>
+<img src="/assets/img/content/post-example/macos_terminalafter.png">
+
+<br />
 
 # Change the format of the shell prompt
 
@@ -43,8 +45,6 @@ PS1= ...
 ```
 
 This line is the one that establishes the format of the shell prompt and the one to change. Thus, if you want, make a copy of it (or of the whole file) for safekeeping. Now, we will change this line.
-
-<br />
 
 If you're on a mac, the default for this line should be:
 
@@ -64,6 +64,7 @@ PS1='[\u@\h:\w]$ '
 
 Now it is in the format that I wanted.
 
+<br />
 
 # Change the colour of the shell prompt
 
@@ -74,9 +75,11 @@ To do so, I used the tput command before each of the characters that I wanted to
 PS!="[\[$(tput setaf 10)\]\u\[$(tput setaf 11)\]@\[$(tput setaf 9)\]\h\[$(tput sgr0)\]:\w]\$ "
 ```
 
-Inserting \[$(tput setaf 10)\] is used to change all characters in front of it to the color 10 and if instead of setaf there is sgr0 it means to reset the color. You can see which numbers correspond to what color in this <a href="https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit:~:text=135-,136,-137">table</a>.
+Inserting \[$(tput setaf 10)\] is used to change all characters in front of it to the color 10 and if instead of setaf there is sgr0 it means to reset the color. You can see which numbers correspond to what color in this <a href="https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit:~:text=135-,136,-137">table</a>. If you want to read more about it see this <a href="https://linuxopsys.com/topics/customizing-bash-prompt-in-linux-changing-colors">article</a>. 
 
 Call me patriotic, but I do think it is a great combination of colors.
+
+<br />
 
 # Change the colour of the folders and files
 
