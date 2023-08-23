@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to make the terminal colourful"
-date:   2022-09-15 10:00:40
+date:   2022-08-01 10:00:40
 draft: false
 og_image: /assets/img/content/banner_terminal.png
 ---
