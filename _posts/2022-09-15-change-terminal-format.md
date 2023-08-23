@@ -6,6 +6,7 @@ draft: false
 og_image: /assets/img/content/banner_terminal.png
 ---
 
+<img src="{{ "/assets/img/content/banner_terminal.png" | absolute_url }}" class="post-pic"/>
 
 <br />
 
@@ -25,11 +26,11 @@ og_image: /assets/img/content/banner_terminal.png
 The shell prompt, the epitome of communication with your computer. While often overlooked, it can be a useful tool to perform tasks faster and more systematically that using the GUI of your PC. Although it is very powerful, looking at it can be quite boring, with its plain formatting. A usual shell prompt is usually something like this:
 <br />
 
-<img src="/assets/img/content/post-example/macos_terminalOG.png">
+<img src="https://raw.githubusercontent.com/anamatoso/anamatoso.github.io/master/assets/img/content/macos_terminalOG.png">
 
 But we're going to make it look like this:
 
-<img src="/assets/img/content/post-example/macos_terminalafter.png">
+<img src="https://raw.githubusercontent.com/anamatoso/anamatoso.github.io/master/assets/img/content/macos_terminalafter.png">
 
 <br />
 
