@@ -1,17 +1,14 @@
 ---
 layout: post
 title:  "Connect to remote machine without password with ssh"
-date:   2019-10-26 10:00:40
+date:   2022-03-01 10:00:40
 draft: true
-blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
 
 <img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
-
-
 
 
 
