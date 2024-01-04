@@ -13,7 +13,7 @@ slug: /projects
         <h3 class="title">Sep 2023 - Present: PhD project</h3>
         <p align="justify">The aim of my PhD is to implement deep learning algorithms to medical images of glioma to both stage the treatment of this disease and generate synthetic MRI data.</p>
         <p>Skills: <img alt="python icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" />
+            <img alt="pytorch icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" />
            <img alt="bash icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /> </p>
       </div>
     </div>
