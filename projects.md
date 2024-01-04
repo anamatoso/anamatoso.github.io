@@ -10,7 +10,16 @@ slug: /projects
   <div class="outer">
     <div class="card">
       <div class="info">
-        <h3 class="title">Jan 2023 - Present: Fixel Based Analysis</h3>
+        <h3 class="title">Sep 2023 - Present: PhD project</h3>
+        <p align="justify">The aim of my PhD is to implement deep learning algorithms to medical images of glioma to both stage the treatment of this disease and generate synthetic MRI data.</p>
+        <p>Skills: <img alt="python icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" />
+           <img alt="bash icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /> </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
+        <h3 class="title">Jan 2023 - Sep 2023: Fixel Based Analysis</h3>
         <p align="justify">This project aims at finding biomarkers for migraine using the fixel-based analysis pipeline of MRtrix3 and diffusion-weighted magnetic resonance imaging data.</p>
         <p>Skills: <img alt="bash icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" /> <img alt="matlab icon" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" /> </p>
       </div>
