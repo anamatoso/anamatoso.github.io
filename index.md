@@ -6,12 +6,12 @@ profile_picture:
 ---
 
 <p align="justify">
-Hello! My name is Ana and I’m a recent graduate in Biomedical Engineering of Instituto Superior Técnico (IST), Lisbon. I am interested in areas where computing meets health thus having developed my master's thesis in computational neuroscience.
+Hello! My name is Ana and I’m a PhD student in Biomedical Engineering at Instituto Superior Técnico (IST), Lisbon. I am interested in areas where computing meets health thus having developed my master's thesis in computational neuroscience and I am now working on the applications of deep learning to medical imaging in a collaboration with Hospital da Luz - Learning Health.
 
 I currently work at <a href="https://welcome.isr.tecnico.ulisboa.pt/"> Institute for Systems and Robotics</a> at IST as a researcher at <a href="https://www.laseeb.org/"> LaSEEB</a>. 
 </p>
 
-<p align="justify">I love to learn and face new challenges since I am a very curious person. As an engineering graduate, I’ve acquired several skills throughout my progress, such as being proactive, organized, determined, and motivated to do a project even when faced with a conundrum. Besides, I consider myself a creative person that loves to brainstorm and discuss new ideas.</p>
+<p align="justify">I love to learn and face new challenges since I am a very curious person. As an engineering graduate, I’ve acquired several skills throughout my progress, such as being proactive, organized, determined, and motivated to do a project even when faced with a conundrum. Besides, I consider myself a creative person who loves brainstorming and discussing new ideas.</p>
 
 <p>That being said, I aspire to make a difference in people’s lives by using technology and applying it to the healthcare field.</p>
 
