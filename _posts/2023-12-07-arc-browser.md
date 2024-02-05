@@ -11,7 +11,7 @@ og_image: /assets/img/content/arc.png
 <br />
 
 <br />
-The browsercompany is shaking up the stagnant browser market. If you haven't tried the arc browser yet, take a look. It's available for mac and on the waiting list for windows: https://arc.net/. 
+The browsercompany is shaking up the stagnant browser market. If you haven't tried the arc browser yet, take a look. It's available for mac and on the waiting list for windows: [https://arc.net/](https://arc.net/). 
 Here are some opinions on this "new" browser from a person who has taken the path: chrome (windows)-> safari(mac)-> firefox(mac)-> arc(mac) route.
 <br />
 
