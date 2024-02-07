@@ -2,16 +2,13 @@
 layout: post
 title:  "Connect to remote machine without password with ssh"
 date:   2022-03-01 10:00:40
-draft: true
-og_image: /assets/img/content/post-example/Banner.jpg
+draft: false
+og_image: /assets/img/content/publicprivatekey.png
 ---
 
-<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/publicprivatekey.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
-
-
-
 <br />
 
 
@@ -22,33 +19,60 @@ og_image: /assets/img/content/post-example/Banner.jpg
 3. [Conclusion](#conclusion)
 
 #### What are private and public keys?
+<br />
+Public and private keys are fundamental components of asymmetric cryptography, a cryptographic system that uses pairs of keys for encryption and decryption. These keys play a crucial role in securing digital communication and ensuring the authenticity, confidentiality, and integrity of data. Here's an little explanation of what public and private keys are and their common applications:
 
+Public Key:
+A public key is a cryptographic key that is openly shared and distributed. It is used for encrypting data or messages intended to be sent to the owner of the corresponding private key. The file of a public key has the .pub extension
+
+Private Key:
+A private key is the complementary counterpart to a public key and is kept secret by its owner. It is used for decrypting data or messages that have been encrypted using the corresponding public key. Private keys are known only to the key owner and are kept confidential to ensure the security of the communication. Do not share them.
+
+Common Uses:
+Secure Communication: Public and private keys are widely used in secure communication protocols such as SSL/TLS for encrypting data transmitted over the internet, ensuring confidentiality and integrity.
+Digital Signatures: Private keys are used to create digital signatures, which can be verified using the corresponding public key. Digital signatures are crucial for verifying the authenticity and integrity of digital documents and transactions.
+Authentication: Public keys are often used in authentication systems, where they are used to verify the identity of users or devices without revealing sensitive information such as passwords.
+
+Overall, public and private keys are essential tools in modern cryptography, enabling secure communication, authentication, and data integrity in various applications across digital systems and networks.
 <br />
-<br />
+
+Now let's look at how we can create a private public key pair so that when accessing a server, you don't have to write its password, thus making the process faster and easier, without compromising security.
 
 #### On the Local Machine
+Use the command ssh-keygen on the terminal to create the public and private keys.
 
-ssh-keygen (passphrase empty and put path to file, that should go to users/ana/.ssh/keys)
+````
+ssh-keygen
+````
 
-<br />
-in the file ~/.ssh/config, paste 
-    Host host
-        HostName host
-        User user
-        IdentityFile /path/to/private/key
+Write the path to the keys (including the name of the file), that should go to folder /Users/[user]/.ssh/keys, where [user] is the name of your user in the local machine. Leave the passphrase empty.
 
 <br />
-copy the public key (open key.pub and copy)
+In the file ~/.ssh/config, paste 
+
+````
+Host [host]
+    HostName [host]
+    User [user]
+    IdentityFile /path/to/private/key
+````
+where [host] is the IP of the host computer (remote) and [user] the name of the user in that host computer.
+
+<br />
+Then copy the public key (open key.pub and copy the text) to be pasted later.
 <br />
 
 
 #### On the Remote Machine
-in the remote machine, in directory ~/.ssh create file names authorized keys and paste there the public key
-now when you, in a new terminal window try to access the remote machine through ssh, you won’t need a password
+Access the remote machine, and in directory ~/.ssh, create a file named "authorized_keys" and paste there the public key you copied from before.
+
+With all of these steps done, in a new terminal window try to access the remote machine through ssh. You shouldn't need a password anymore.
+
+If it still does not work, try to copy the file of the public key (key.pub) to the remote machine to the directory ~/.ssh.
 
 <br />
 
 #### Conclusion
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+That's all. This way, it is far easier to access your remote server and just as secure.
 
 <br />
