@@ -21,13 +21,13 @@ og_image: /assets/img/content/publicprivatekey.png
 
 Public and private keys are fundamental components of asymmetric cryptography, a cryptographic system that uses pairs of keys for encryption and decryption. These keys play a crucial role in securing digital communication and ensuring the authenticity, confidentiality, and integrity of data. Here's an little explanation of what public and private keys are and their common applications:
 
-Public Key:
+<b>Public Key</b>:
 A public key is a cryptographic key that is openly shared and distributed. It is used for encrypting data or messages intended to be sent to the owner of the corresponding private key. The file of a public key has the .pub extension
 
-Private Key:
+<b>Private Key</b>:
 A private key is the complementary counterpart to a public key and is kept secret by its owner. It is used for decrypting data or messages that have been encrypted using the corresponding public key. Private keys are known only to the key owner and are kept confidential to ensure the security of the communication. Do not share them.
 
-Common Uses:
+<b>Common Uses</b>:
 Secure Communication: Public and private keys are widely used in secure communication protocols such as SSL/TLS for encrypting data transmitted over the internet, ensuring confidentiality and integrity.
 Digital Signatures: Private keys are used to create digital signatures, which can be verified using the corresponding public key. Digital signatures are crucial for verifying the authenticity and integrity of digital documents and transactions.
 Authentication: Public keys are often used in authentication systems, where they are used to verify the identity of users or devices without revealing sensitive information such as passwords.
