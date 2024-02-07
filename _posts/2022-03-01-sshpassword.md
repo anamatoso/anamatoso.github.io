@@ -9,7 +9,6 @@ og_image: /assets/img/content/publicprivatekey.png
 <img src="{{ "/assets/img/content/publicprivatekey.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
-<br />
 
 
 #### Table of Contents
@@ -19,7 +18,7 @@ og_image: /assets/img/content/publicprivatekey.png
 3. [Conclusion](#conclusion)
 
 #### What are private and public keys?
-<br />
+
 Public and private keys are fundamental components of asymmetric cryptography, a cryptographic system that uses pairs of keys for encryption and decryption. These keys play a crucial role in securing digital communication and ensuring the authenticity, confidentiality, and integrity of data. Here's an little explanation of what public and private keys are and their common applications:
 
 Public Key:
@@ -36,6 +35,8 @@ Authentication: Public keys are often used in authentication systems, where they
 Overall, public and private keys are essential tools in modern cryptography, enabling secure communication, authentication, and data integrity in various applications across digital systems and networks.
 
 Now let's look at how we can create a private public key pair so that when accessing a server, you don't have to write its password, thus making the process faster and easier, without compromising security.
+
+<br />
 
 #### On the Local Machine
 Use the command ssh-keygen on the terminal to create the public and private keys.
@@ -57,8 +58,8 @@ Host [host]
 where [host] is the IP of the host computer (remote) and [user] the name of the user in that host computer.
 
 Then copy the public key (open key.pub and copy the text) to be pasted later.
-<br />
 
+<br />
 
 #### On the Remote Machine
 Access the remote machine, and in directory ~/.ssh, create a file named "authorized_keys" and paste there the public key you copied from before.
