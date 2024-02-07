@@ -34,7 +34,6 @@ Digital Signatures: Private keys are used to create digital signatures, which ca
 Authentication: Public keys are often used in authentication systems, where they are used to verify the identity of users or devices without revealing sensitive information such as passwords.
 
 Overall, public and private keys are essential tools in modern cryptography, enabling secure communication, authentication, and data integrity in various applications across digital systems and networks.
-<br />
 
 Now let's look at how we can create a private public key pair so that when accessing a server, you don't have to write its password, thus making the process faster and easier, without compromising security.
 
@@ -47,8 +46,7 @@ ssh-keygen
 
 Write the path to the keys (including the name of the file), that should go to folder /Users/[user]/.ssh/keys, where [user] is the name of your user in the local machine. Leave the passphrase empty.
 
-<br />
-In the file ~/.ssh/config, paste 
+Afterwards, in the file ~/.ssh/config, paste 
 
 ````
 Host [host]
@@ -58,7 +56,6 @@ Host [host]
 ````
 where [host] is the IP of the host computer (remote) and [user] the name of the user in that host computer.
 
-<br />
 Then copy the public key (open key.pub and copy the text) to be pasted later.
 <br />
 
