@@ -25,7 +25,7 @@ permalink: /publications/
     </div>
 </div>
  
-<div class="publication"></div>
+<div class="publication">
     <div class="details">
         <div class="title">The involvement of the cerebellum in structural connectome changes in episodic migraine without aura</div>
         <div class="date">Date: May 2024</div>
