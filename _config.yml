@@ -16,6 +16,8 @@ header:
       slug: /
     - name: Projects
       slug: /projects
+    - name: Work
+      slug: /work
     - name: Blog
       slug: /blog
     - name: Contact
