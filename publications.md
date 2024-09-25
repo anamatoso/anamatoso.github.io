@@ -4,9 +4,9 @@ title: Publications
 permalink: /publications
 ---
 
-# Publications
 
-## Papers
+
+# Papers
 <div class="publication">
     <div class="details">
         <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
@@ -14,8 +14,9 @@ permalink: /publications
         <div class="file-link"><a href="https://doi.org/10.1186/s10194-024-01854-8" target="_blank">See Paper</a></div>
     </div>
 </div>
+<hr />
 
-## Orals
+# Orals
 <div class="publication">
     <div class="details">
         <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
@@ -24,7 +25,7 @@ permalink: /publications
         <!-- <div class="file-link"><a href="path/to/oral1.pdf" target="_blank">Download Presentation</a></div> -->
     </div>
 </div>
- 
+<p></p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">The involvement of the cerebellum in structural connectome changes in episodic migraine without aura</div>
@@ -33,9 +34,9 @@ permalink: /publications
         <!-- <div class="file-link"><a href="path/to/oral1.pdf" target="_blank">Download Presentation</a></div> -->
     </div>
 </div>
+<hr />
 
-
-## Posters
+# Posters
 <div class="publication">
     <div class="details">
         <div class="titlepub">Structural Connectivity Changes in Migraine Involving the Cerebellum</div>
@@ -46,6 +47,7 @@ permalink: /publications
         <img src="/assets/img/content/PosterIberian24.png" alt="Poster Iberian 2024" width="60">
     </a>
 </div>
+<p></p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">Structural connectome changes in episodic migraine: the role of the cerebellum</div>
