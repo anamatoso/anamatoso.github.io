@@ -87,7 +87,7 @@ permalink: /work
         <div class="titlepub">Structural connectome changes in episodic migraine: the role of the cerebellum</div>
         <div class="location-conference">2024 ISMRM/ISMRT Annual Meeting | Singapore, Singapore</div>
         <div class="date">May 6, 2024</div>
-        <a href="/assets/pdfs/Poster_ISMRM24.pdf" download target="_blank">Download Video Poster</a>
+        <a href="/assets/pdfs/Poster_ISMRM24.pdf" download target="_blank">Download Poster</a>
     </div>
     <!-- Image Link (Miniature of the Poster) -->   
 </div>
