@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Publications
+title: 
 permalink: /publications
 ---
 
@@ -37,7 +37,7 @@ permalink: /publications
 <p></p>
 
 <p style="font-size: 19px; font-weight: bold;">
-    Orals
+    Oral Communications
 </p>
 <div class="publication">
     <div class="details">
