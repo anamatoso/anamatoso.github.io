@@ -7,7 +7,6 @@ permalink: /publications
 <p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
     Papers
 </p>
-<p font-size: 19px><b><u>Papers</u></b></p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
@@ -46,15 +45,17 @@ permalink: /publications
 <p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
     Posters
 </p>
-<div class="publication">
-    <div class="details">
+<div class="publication" style="overflow: auto;">
+    <div class="details" style="float: left; width: 70%;">
         <div class="titlepub">Structural Connectivity Changes in Migraine Involving the Cerebellum</div>
         <div class="date">Date: July 2024</div>
         <div class="location-conference">Location: Porto, Portugal | Conference: 2024 ISMRM Iberian Chapter Meeting </div>
     </div>
-    <a href="https://www.ismrm.org/" target="_blank">
-        <img src="/assets/img/content/PosterIberian24.png" alt="Poster Iberian 2024" width="60">
-    </a>
+    <div class="poster-image" style="float: right; width: 30%;">
+        <a href="https://www.ismrm.org/" target="_blank">
+            <img src="/assets/img/content/PosterIberian24.png" alt="Poster Iberian 2024" style="width: 100%;">
+        </a>
+    </div>
 </div>
 <p></p>
 <div class="publication">
