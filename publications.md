@@ -4,17 +4,18 @@ title: Publications
 permalink: /publications
 ---
 
-<p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
+<p style="font-size: 19px; font-weight: bold;">
     Papers
 </p>
 <div class="publication">
     <div class="details" style="overflow: auto;">
         <div class="titlepub">
-            <a href="https://doi.org/10.1186/s10194-024-01854-8" target="_blank" style="text-decoration: none; color: inherit;">
+            <a href="https://doi.org/10.1186/s10194-024-01854-8" target="_blank" style="text-decoration: none; text-decoration: underline; color: inherit;">
                 Involvement of the cerebellum in structural connectivity enhancement in episodic migraine
             </a>
         </div>
-        <div class="date">Date: September 2024</div>
+        <div class="authors">Ana Matoso, Ana R Fouto, Inês Esteves, Amparo Ruiz-Tagle, Gina Caetano, Nuno A Silva, Pedro Vilela, Raquel Gil-Gouveia, Rita G Nunes, Patrícia Figueiredo</div>
+        <div class="date">September 18, 2024</div>
     </div>
 </div>
 <p></p>
@@ -22,7 +23,7 @@ permalink: /publications
 <p></p>
 <p></p>
 
-<p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
+<p style="font-size: 19px; font-weight: bold;">
     Orals
 </p>
 <div class="publication">
@@ -47,7 +48,7 @@ permalink: /publications
 <p></p>
 <p></p>
 
-<p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
+<p style="font-size: 19px; font-weight: bold;">
     Posters
 </p>
 <div class="publication" style="overflow: auto;">
