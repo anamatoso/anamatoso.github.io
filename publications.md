@@ -32,6 +32,7 @@ permalink: /publications/
             <!-- <div class="file-link"><a href="path/to/oral1.pdf" target="_blank">Download Presentation</a></div> -->
         </div>
     </div>
+</div>
 
 ## Posters
 <div class="publication">
