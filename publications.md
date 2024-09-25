@@ -4,6 +4,9 @@ title: Publications
 permalink: /publications
 ---
 
+<p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
+    Papers
+</p>
 <p font-size: 19px><b><u>Papers</u></b></p>
 <div class="publication">
     <div class="details">
@@ -16,7 +19,9 @@ permalink: /publications
 <p></p>
 <p></p>
 
-<p font-size: 19px><b><u>Orals</u></b></p>
+<p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
+    Orals
+</p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
@@ -38,8 +43,9 @@ permalink: /publications
 <p></p>
 <p></p>
 
-<p font-size: 19px><b><u>Posters</u></b></p>
-
+<p style="font-size: 19px; font-weight: bold; text-decoration: underline;">
+    Posters
+</p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">Structural Connectivity Changes in Migraine Involving the Cerebellum</div>
