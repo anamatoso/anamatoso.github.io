@@ -5,7 +5,7 @@ permalink: /publications
 ---
 
 <p style="font-size: 19px; font-weight: bold;">
-    Papers
+    Published Work
 </p>
 <div class="publication">
     <div class="details" style="overflow: auto;">
@@ -17,6 +17,18 @@ permalink: /publications
         <div class="authors"><b>Ana Matoso</b>, Ana R Fouto, Inês Esteves, Amparo Ruiz-Tagle, Gina Caetano, Nuno A Silva, Pedro Vilela, Raquel Gil-Gouveia, Rita G Nunes, Patrícia Figueiredo</div>
         <div class="location-conference">The Journal of Headache and Pain</div>
         <div class="date">September 18, 2024</div>
+    </div>
+</div>
+<p></p>
+<div class="publication">
+    <div class="details" style="overflow: auto;">
+        <div class="titlepub">
+            <a href="https://fenix.tecnico.ulisboa.pt/cursos/mebiom21/dissertacao/565303595503035" target="_blank" style="text-decoration: none; text-decoration: underline; color: inherit;">
+                Investigating Structural Connectivity in Episodic Migraine using Graph Theory
+            </a>
+        </div>
+        <div class="authors"><b>Ana Matoso</b>, Master Thesis</div>
+        <div class="date">December 5, 2022</div>
     </div>
 </div>
 <p></p>
@@ -56,22 +68,8 @@ permalink: /publications
     <div class="details">
         <div class="titlepub">Structural Connectivity Changes in Migraine Involving the Cerebellum</div>
         <div class="location-conference">2024 ISMRM Iberian Chapter Meeting | Porto, Portugal  </div>
-        <div class="date">July 3, 2024</div>
-    </div>
-    <!-- Image Link (Miniature of the Poster) 
-    <div class="poster-image" style="float: right; width: 15%;">
-        <a href="https://www.ismrm.org/" target="_blank">
-            <img src="/assets/img/content/PosterIberian24.png" alt="Poster Iberian 2024" style="width: 100%;">
-        </a>
-    </div>
-    --> 
-</div>
-<p></p>
-<div class="publication">
-    <div class="details">
-        <div class="titlepub">Structural Connectivity Changes in Migraine Involving the Cerebellum</div>
         <div class="location-conference">2024 LARSyS Meeting | Lisboa, Portugal  </div>
-        <div class="date">July 11, 2024</div>
+        <div class="date">July 2024</div>
     </div>
     <!-- Image Link (Miniature of the Poster) 
     <div class="poster-image" style="float: right; width: 15%;">
@@ -87,39 +85,6 @@ permalink: /publications
         <div class="titlepub">Structural connectome changes in episodic migraine: the role of the cerebellum</div>
         <div class="date">May 6, 2024</div>
         <div class="location-conference">2024 ISMRM/ISMRT Annual Meeting | Singapore, Singapore</div>
-    </div>
-    <!-- Image Link (Miniature of the Poster) -->   
-</div>
-<p></p>
-<div class="publication">
-    <div class="details">
-        <div class="titlepub"> Measuring Structural Connectivity In Migraine: The Impact Of Correcting For Region Volumes</div>
-        <div class="location-conference">2023 LARSyS Meeting | Lisboa, Portugal  </div>
-        <div class="date">July 18, 2023</div>
-    </div>
-    <!-- Image Link (Miniature of the Poster) 
-    <div class="poster-image" style="float: right; width: 15%;">
-        <a href="https://www.ismrm.org/" target="_blank">
-            <img src="/assets/img/content/PosterIberian24.png" alt="Poster Iberian 2024" style="width: 100%;">
-        </a>
-    </div>
-    --> 
-</div>
-<p></p>
-<div class="publication">
-    <div class="details">
-        <div class="titlepub">Measuring structural connectivity in migraine: the impact of correcting for region volumes</div>
-        <div class="date">July 4, 2023</div>
-        <div class="location-conference">2023 ISMRM Iberian Chapter Meeting | Valladolid, Spain</div>
-    </div>
-    <!-- Image Link (Miniature of the Poster) -->   
-</div>
-<p></p>
-<div class="publication">
-    <div class="details">
-        <div class="titlepub">Measuring structural connectivity in migraine: the impact of correcting for region volumes</div>
-        <div class="date">June 6, 2023</div>
-        <div class="location-conference">2023 ISMRM/ISMRT Annual Meeting | Toronto, Canada</div>
     </div>
     <!-- Image Link (Miniature of the Poster) -->   
 </div>
