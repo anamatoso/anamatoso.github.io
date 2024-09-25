@@ -42,7 +42,7 @@ permalink: /publications/
         <div class="date">Date: July 2024</div>
         <div class="location-conference">Location: Porto, Portugal | Conference: 2024 ISMRM Iberian Chapter Meeting </div>
     </div>
-    <a href="https://www.ismrm.org/" target="_blank"></a>
+    <a href="https://www.ismrm.org/" target="_blank">
         <img src="/assets/img/content/PosterIberian24.png" alt="Poster Iberian 2024">
     </a>
 </div>
