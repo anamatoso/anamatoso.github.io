@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications
 ---
 
-
-
 # Papers
 <div class="publication">
     <div class="details">
