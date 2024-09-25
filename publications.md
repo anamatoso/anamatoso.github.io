@@ -14,7 +14,8 @@ permalink: /publications
                 Involvement of the cerebellum in structural connectivity enhancement in episodic migraine
             </a>
         </div>
-        <div class="authors">Ana Matoso, Ana R Fouto, Inês Esteves, Amparo Ruiz-Tagle, Gina Caetano, Nuno A Silva, Pedro Vilela, Raquel Gil-Gouveia, Rita G Nunes, Patrícia Figueiredo</div>
+        <div class="authors"><b>Ana Matoso</b>, Ana R Fouto, Inês Esteves, Amparo Ruiz-Tagle, Gina Caetano, Nuno A Silva, Pedro Vilela, Raquel Gil-Gouveia, Rita G Nunes, Patrícia Figueiredo</div>
+        <div class="location-conference">The Journal of Headache and Pain</div>
         <div class="date">September 18, 2024</div>
     </div>
 </div>
@@ -29,8 +30,8 @@ permalink: /publications
 <div class="publication">
     <div class="details">
         <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
+        <div class="location-conference">1st Net4Brain COST Action Meeting | Ljubljana, Slovenia</div>
         <div class="date">September 5, 2024</div>
-        <div class="location-conference">Location: Ljubljana, Slovenia | Conference: 1st Net4Brain COST Action Meeting</div>
         <!-- <div class="file-link"><a href="path/to/oral1.pdf" target="_blank">Download Presentation</a></div> -->
     </div>
 </div>
@@ -39,7 +40,7 @@ permalink: /publications
     <div class="details">
         <div class="titlepub">The involvement of the cerebellum in structural connectome changes in episodic migraine without aura</div>
         <div class="date">May 2024</div>
-        <div class="location-conference">Location: Lisbon, Portugal | Conference: 3rd Hospital da Luz Research Congress</div>
+        <div class="location-conference">3rd Hospital da Luz Research Congress | Lisbon, Portugal</div>
         <!-- <div class="file-link"><a href="path/to/oral1.pdf" target="_blank">Download Presentation</a></div> -->
     </div>
 </div>
