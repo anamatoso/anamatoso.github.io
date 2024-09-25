@@ -44,9 +44,8 @@ permalink: /work
         <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
         <div class="location-conference">1st Net4Brain COST Action Meeting | Ljubljana, Slovenia</div>
         <div class="date">September 5, 2024</div>
-        <div class="file-link">
-    <a href="/assets/pdfs/Oral_Net4brain24.pdf" download target="_blank">Download Presentation</a>
-</div>
+        <a href="/assets/pdfs/Oral_Net4brain24.pdf" download target="_blank">Download Presentation</a>
+
     </div>
 </div>
 <p></p>
