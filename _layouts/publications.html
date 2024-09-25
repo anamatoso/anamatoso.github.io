@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"></html>
+{% include head.html %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +61,7 @@
     </style>
 </head>
 <body>
-
+    {% include header.html %}
     <!-- Papers Section -->
     <h2>Papers</h2>
     <div class="publication">
@@ -111,6 +112,8 @@
         <!-- Image Link (Miniature of the Poster) -->
         
     </div>
+    {% include footer.html %}
 
+    {% include foot.html %}
 </body>
 </html>
