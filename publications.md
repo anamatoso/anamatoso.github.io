@@ -50,6 +50,6 @@ permalink: /publications/
             <div class="date">Date: June 2024</div>
             <div class="location-conference">Location: Singapore, Singapore | Conference: 2024 ISMRM/ISMRT Annual Meeting</div>
         </div>
-        <!-- Image Link (Miniature of the Poster) -->
-        
+        <!-- Image Link (Miniature of the Poster) -->   
     </div>
+</div>
