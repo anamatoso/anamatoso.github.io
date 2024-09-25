@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications
 ---
 
-### Papers
+<p font-size: 19px><b><u>Papers<u><b></p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
@@ -16,7 +16,7 @@ permalink: /publications
 <p></p>
 <p></p>
 
-### Orals
+<p font-size: 19px><b><u>Orals<u><b></p>
 <div class="publication">
     <div class="details">
         <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
@@ -38,7 +38,8 @@ permalink: /publications
 <p></p>
 <p></p>
 
-### Posters
+<p font-size: 19px><b><u>Posters<u><b></p>
+
 <div class="publication">
     <div class="details">
         <div class="titlepub">Structural Connectivity Changes in Migraine Involving the Cerebellum</div>
