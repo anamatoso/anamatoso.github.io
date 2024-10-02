@@ -10,25 +10,27 @@ permalink: /work
 <div class="publication">
     <div class="details" style="overflow: auto;">
         <div class="titlepub">
-            <a href="https://doi.org/10.1186/s10194-024-01854-8" target="_blank" style="text-decoration: none; text-decoration: underline; color: inherit;">
+            <a style="text-decoration: none; text-decoration: underline; color: inherit;">
                 Involvement of the cerebellum in structural connectivity enhancement in episodic migraine
             </a>
         </div>
         <div class="authors"><b>Ana Matoso</b>, Ana R Fouto, Inês Esteves, Amparo Ruiz-Tagle, Gina Caetano, Nuno A Silva, Pedro Vilela, Raquel Gil-Gouveia, Rita G Nunes, Patrícia Figueiredo</div>
         <div class="location-conference">The Journal of Headache and Pain</div>
         <div class="date">September 18, 2024</div>
+        <a href="https://doi.org/10.1186/s10194-024-01854-8" target="_blank">Link</a>
     </div>
 </div>
 <p></p>
 <div class="publication">
     <div class="details" style="overflow: auto;">
         <div class="titlepub">
-            <a href="https://fenix.tecnico.ulisboa.pt/cursos/mebiom21/dissertacao/565303595503035" target="_blank" style="text-decoration: none; text-decoration: underline; color: inherit;">
+            <a style="text-decoration: none; text-decoration: underline; color: inherit;">
                 Investigating Structural Connectivity in Episodic Migraine using Graph Theory
             </a>
         </div>
         <div class="authors"><b>Ana Matoso</b>, Master Thesis</div>
         <div class="date">December 5, 2022</div>
+        <a href="https://fenix.tecnico.ulisboa.pt/cursos/mebiom21/dissertacao/565303595503035" target="_blank">Link</a>
     </div>
 </div>
 <p></p>
