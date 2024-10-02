@@ -10,6 +10,7 @@ permalink: /work
 <div class="publication">
     <div class="details" style="overflow: auto;">
         <div class="titlepub">
+            <a>&#128279;</a>
             <a href="https://doi.org/10.1186/s10194-024-01854-8" target="_blank" style="text-decoration: none; text-decoration: underline; color: inherit;">
                 Involvement of the cerebellum in structural connectivity enhancement in episodic migraine
             </a>
@@ -23,6 +24,7 @@ permalink: /work
 <div class="publication">
     <div class="details" style="overflow: auto;">
         <div class="titlepub">
+        <a>&#128279;</a>
             <a href="https://fenix.tecnico.ulisboa.pt/cursos/mebiom21/dissertacao/565303595503035" target="_blank" style="text-decoration: none; text-decoration: underline; color: inherit;">
                 Investigating Structural Connectivity in Episodic Migraine using Graph Theory
             </a>
