@@ -4,7 +4,7 @@
     color: #777;
     display: block;
     text-align: right;
-    float: left;
+    float: right;
 
     @include media-query($on-mobile) {
       display: block;
