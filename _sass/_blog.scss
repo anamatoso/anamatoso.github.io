@@ -3,7 +3,8 @@
     width: 6em;
     color: #777;
     display: block;
-    float: right;
+    text-align: right;
+    float: left;
 
     @include media-query($on-mobile) {
       display: block;
