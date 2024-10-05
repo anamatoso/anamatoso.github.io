@@ -27,3 +27,12 @@
   margin-right: auto;
   width: 50%;
 }
+
+#search-bar {
+  width: 100%;          /* Full width */
+  padding: 10px;        /* Padding for better appearance */
+  margin-bottom: 20px;  /* Space between search bar and the posts */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}

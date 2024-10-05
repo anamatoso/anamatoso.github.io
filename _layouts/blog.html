@@ -10,6 +10,8 @@
         <div class="blog">
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
+          
+          <input type="text" id="search-bar" placeholder="Search blog posts..." onkeyup="searchPosts()">
 
           <p class="blog-post-list">
             {% for post in site.posts %}
