@@ -29,8 +29,10 @@ permalink: /work
                 Investigating Structural Connectivity in Episodic Migraine using Graph Theory
             </a>
         </div>
-        <div class="authors"><b>Ana Matoso</b>, Master Thesis</div>
+        <div class="authors">Ana Matoso</div>
+        <div class="location-conference">Master Thesis</div>
         <div class="date">December 5, 2022</div>
+            </div>
     </div>
 </div>
 <p></p>
@@ -43,12 +45,17 @@ permalink: /work
 </p>
 <div class="publication">
     <div class="details">
+        <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
+        <div class="location-conference">University of Minnesota's Center for Cerebellar Network Structure and Function in Health and Disease | Invited speaker</div>
+        <div class="date">November 7, 2024</div>
+</div>
+<p></p>
+<div class="publication">
+    <div class="details">
         <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
         <div class="location-conference">1st Net4Brain COST Action Meeting | Ljubljana, Slovenia</div>
         <div class="date">September 5, 2024</div>
         <a href="/assets/pdfs/Oral_Net4brain24.pdf" download target="_blank">Download Presentation</a>
-
-    </div>
 </div>
 <p></p>
 <div class="publication">
