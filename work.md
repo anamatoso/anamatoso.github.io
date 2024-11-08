@@ -31,8 +31,7 @@ permalink: /work
         </div>
         <div class="authors">Ana Matoso</div>
         <div class="location-conference">Master Thesis</div>
-        <div class="date">December 5, 2022</div>
-            </div>
+        <div class="date">December 5, 2022</div>   
     </div>
 </div>
 <p></p>
