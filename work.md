@@ -47,6 +47,7 @@ permalink: /work
         <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
         <div class="location-conference">University of Minnesota's Center for Cerebellar Network Structure and Function in Health and Disease | Invited speaker</div>
         <div class="date">November 7, 2024</div>
+        <a href="/assets/pdfs/Oral_Minnesota24.pdf" download target="_blank">Download Presentation</a>
 </div>
 <p></p>
 <div class="publication">
