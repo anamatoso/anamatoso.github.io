@@ -44,18 +44,19 @@ permalink: /work
 </p>
 <div class="publication">
     <div class="details">
-        <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
-        <div class="location-conference">University of Minnesota's Center for Cerebellar Network Structure and Function in Health and Disease | Invited speaker</div>
-        <div class="date">November 7, 2024</div>
-        <a href="/assets/pdfs/Oral_Minnesota24.pdf" download target="_blank">Download Presentation</a>
+        <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
+        <div class="location-conference">6th Students Meeting of the Mind-Brain College of ULisboa | Lisbon, Portugal</div>
+        <div class="location-conference">1st Net4Brain COST Action Meeting | Ljubljana, Slovenia</div>
+        <div class="date">September and November, 2024</div>
+        <a href="/assets/pdfs/Oral_MindBrainCollege24.pdf" download target="_blank">Download Presentation</a>
 </div>
 <p></p>
 <div class="publication">
     <div class="details">
-        <div class="titlepub">Towards a deep learning approach for classifying response to treatment in glioblastomas</div>
-        <div class="location-conference">1st Net4Brain COST Action Meeting | Ljubljana, Slovenia</div>
-        <div class="date">September 5, 2024</div>
-        <a href="/assets/pdfs/Oral_Net4brain24.pdf" download target="_blank">Download Presentation</a>
+        <div class="titlepub">Involvement of the cerebellum in structural connectivity enhancement in episodic migraine</div>
+        <div class="location-conference">University of Minnesota's Center for Cerebellar Network Structure and Function in Health and Disease | Invited speaker</div>
+        <div class="date">November 7, 2024</div>
+        <a href="/assets/pdfs/Oral_Minnesota24.pdf" download target="_blank">Download Presentation</a>
 </div>
 <p></p>
 <div class="publication">
