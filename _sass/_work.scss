@@ -97,6 +97,11 @@
   color: #555;
   margin-top: 2px;
   font-style: italic;
+  &::before {
+    content: "• ";
+    color: #555;
+    font-size: inherit;
+  }
 }
 
 .file-link {
