@@ -15,7 +15,7 @@ permalink: /work
                Towards a deep learning approach for classifying treatment response in glioblastomas
             </a>
         </div>
-        <div class="authors"><b>Ana Matoso</b>, Catarina Passarinho, Marta P Loureiro, Rita G Nunes, Patrícia Figueiredo</div>
+        <div class="authors"><b>Ana Matoso</b>, Catarina Passarinho, Marta P Loureiro, José Maria Moreira, Patrícia Figueiredo, Rita G Nunes</div>
         <div class="location-conference">Arxiv</div>
          <div class="date">2025</div>
     </div>
