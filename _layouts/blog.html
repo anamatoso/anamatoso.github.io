@@ -11,20 +11,110 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 
-          <p class="blog-post-list">
+          {% comment %} Featured Posts Section {% endcomment %}
+          {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
+          {% if featured_posts.size > 0 %}
+            <section class="featured-posts">
+              <h2 class="section-title">Featured Posts</h2>
+              <div class="featured-posts-grid">
+                {% for post in featured_posts %}
+                  <article class="featured-post-card">
+                    {% if post.og_image %}
+                      <div class="featured-post-image">
+                        <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}">
+                          <img src="{{ post.og_image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="lazy">
+                        </a>
+                      </div>
+                    {% endif %}
+                    <div class="featured-post-content">
+                      <div class="featured-post-meta">
+                        <time class="featured-post-date">{{ post.date | date: "%-d %b %Y" }}</time>
+                        <span class="featured-badge">Featured</span>
+                      </div>
+                      <h3 class="featured-post-title">
+                        <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}">
+                          {{ post.title }}
+                        </a>
+                      </h3>
+                      {% if post.blurb %}
+                        <p class="featured-post-excerpt">{{ post.blurb }}</p>
+                      {% elsif post.description %}
+                        <p class="featured-post-excerpt">{{ post.description | truncate: 120 }}</p>
+                      {% endif %}
+                    </div>
+                  </article>
+                {% endfor %}
+              </div>
+            </section>
+          {% endif %}
+
+          {% comment %} Search and Filter Section {% endcomment %}
+          <section class="blog-controls">
+            <div class="search-container">
+              <input type="text" id="blog-search" placeholder="Search posts..." class="search-input">
+              <div class="search-icon">🔍</div>
+            </div>
+            
+            <div class="filter-container">
+              <select id="tag-filter" class="filter-select">
+                <option value="">All Topics</option>
+                {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
+                {% for tag in all_tags %}
+                  <option value="{{ tag }}">{{ tag | capitalize }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </section>
+
+          <div class="blog-posts-grid" id="blog-posts-container">
             {% for post in site.posts %}
-
               {% if post.draft != true %}
-                <span class="blog-post-date">{{ post.date | date: "%-d %b %Y" }}</span>
-                <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                  {{ post.title }}
-                </a>
-                <br />
-
+                <article class="blog-post-card">
+                  <div class="blog-post-header">
+                    <div class="blog-post-meta">
+                      <time class="blog-post-date">{{ post.date | date: "%-d %b %Y" }}</time>
+                      {% if post.tags %}
+                        <div class="blog-post-tags">
+                          {% for tag in post.tags limit:3 %}
+                            <span class="blog-post-tag">{{ tag }}</span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                    </div>
+                    <h2 class="blog-post-title">
+                      <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}">
+                        {{ post.title }}
+                      </a>
+                    </h2>
+                  </div>
+                  
+                  {% if post.og_image %}
+                    <div class="blog-post-image">
+                      <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}">
+                        <img src="{{ post.og_image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="lazy">
+                      </a>
+                    </div>
+                  {% endif %}
+                  
+                  <div class="blog-post-content">
+                    {% if post.blurb %}
+                      <p class="blog-post-excerpt">{{ post.blurb }}</p>
+                    {% elsif post.description %}
+                      <p class="blog-post-excerpt">{{ post.description | truncate: 150 }}</p>
+                    {% else %}
+                      <p class="blog-post-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+                    {% endif %}
+                    
+                    <div class="blog-post-footer">
+                      <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="read-more-btn">
+                        Read More →
+                      </a>
+                    </div>
+                  </div>
+                </article>
               {% endif %}
-
             {% endfor %}
-          </p>
+          </div>
         </div>
       </div>
     </div>
