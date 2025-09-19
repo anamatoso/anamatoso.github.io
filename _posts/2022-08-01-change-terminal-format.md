@@ -3,6 +3,7 @@ layout: post
 title:  "How to make the terminal colourful"
 date:   2022-08-01 10:00:40
 draft: false
+blurb: "Make the terminal prettier to look at"
 og_image: /assets/img/content/banner_terminal.png
 ---
 

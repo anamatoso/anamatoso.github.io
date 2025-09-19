@@ -44,30 +44,26 @@ window.onbeforeunload = () => {
 }
 
 /**
- * Blog Search and Filter Functionality
+ * Blog Search Functionality
  */
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('blog-search');
-  const tagFilter = document.getElementById('tag-filter');
   const postsContainer = document.getElementById('blog-posts-container');
   
-  if (!searchInput || !tagFilter || !postsContainer) return;
+  if (!searchInput || !postsContainer) return;
   
   const posts = Array.from(postsContainer.querySelectorAll('.blog-post-card'));
   
   function filterPosts() {
     const searchTerm = searchInput.value.toLowerCase();
-    const selectedTag = tagFilter.value.toLowerCase();
     
     posts.forEach(post => {
       const title = post.querySelector('.blog-post-title a').textContent.toLowerCase();
       const excerpt = post.querySelector('.blog-post-excerpt')?.textContent.toLowerCase() || '';
-      const tags = Array.from(post.querySelectorAll('.blog-post-tag')).map(tag => tag.textContent.toLowerCase());
       
       const matchesSearch = title.includes(searchTerm) || excerpt.includes(searchTerm);
-      const matchesTag = !selectedTag || tags.includes(selectedTag);
       
-      if (matchesSearch && matchesTag) {
+      if (matchesSearch) {
         post.style.display = 'block';
         post.style.animation = 'fadeIn 0.3s ease-in';
       } else {
@@ -79,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const visiblePosts = posts.filter(post => post.style.display !== 'none');
     let noResultsMsg = document.getElementById('no-results-message');
     
-    if (visiblePosts.length === 0 && (searchTerm || selectedTag)) {
+    if (visiblePosts.length === 0 && searchTerm) {
       if (!noResultsMsg) {
         noResultsMsg = document.createElement('div');
         noResultsMsg.id = 'no-results-message';
@@ -87,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         noResultsMsg.innerHTML = `
           <div class="no-results-content">
             <h3>No posts found</h3>
-            <p>Try adjusting your search terms or filters</p>
+            <p>Try adjusting your search terms</p>
           </div>
         `;
         postsContainer.appendChild(noResultsMsg);
@@ -98,9 +94,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
-  // Add event listeners
+  // Add event listener
   searchInput.addEventListener('input', filterPosts);
-  tagFilter.addEventListener('change', filterPosts);
   
   // Add CSS for animations
   const style = document.createElement('style');

@@ -48,21 +48,11 @@
             </section>
           {% endif %}
 
-          {% comment %} Search and Filter Section {% endcomment %}
+          {% comment %} Search Section {% endcomment %}
           <section class="blog-controls">
             <div class="search-container">
               <input type="text" id="blog-search" placeholder="Search posts..." class="search-input">
               <div class="search-icon">🔍</div>
-            </div>
-            
-            <div class="filter-container">
-              <select id="tag-filter" class="filter-select">
-                <option value="">All Topics</option>
-                {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
-                {% for tag in all_tags %}
-                  <option value="{{ tag }}">{{ tag | capitalize }}</option>
-                {% endfor %}
-              </select>
             </div>
           </section>
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Observational internship in Hospital de Santa Maria"
 date:   2021-09-16 10:00:40
 draft: false
+blurb: "My experience in the Gastroenterology Unit of Santa Maria Hospital"
 og_image: /assets/img/content/gastro_internship.jpg
 ---
 

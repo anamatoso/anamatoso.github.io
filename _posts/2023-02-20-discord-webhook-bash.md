@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "How to create a webhook in Discord to notify when a bash script has finished running"
+title:  "How to create a webhook in Discord for bash scripts"
 date:   2023-02-20 10:00:40
 draft: false
+blurb: "So that you get notified when a script finishes running"
 og_image: /assets/img/content/webhook_discord.png
 ---
 

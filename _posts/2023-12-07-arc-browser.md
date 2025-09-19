@@ -3,7 +3,7 @@ layout: post
 title:  "Arc Browser"
 date:   2023-12-07 10:00:40
 draft: false
-blurb: "A look at an example post using Bay Jekyll theme."
+blurb: "Why I changed to Arc browser"
 og_image: /assets/img/content/arc.png
 ---
 
