@@ -1,5 +1,8 @@
 ---
 layout: home
+title: "Ana Matoso - PhD Student in Biomedical Engineering"
+description: "PhD student in Biomedical Engineering at IST Lisbon, specializing in deep learning for medical imaging specifically glioma. Researcher at LaSEEB working on glioma treatment and synthetic MRI data generation."
+keywords: "biomedical engineering, deep learning, medical imaging, computational neuroscience, PhD student, IST, Portugal, glioma, MRI, machine learning"
 profile_picture:
   src: /assets/img/AnaMatoso.jpeg
   alt: Picture of Ana Matoso

@@ -40,30 +40,116 @@
   <title>{{ page_title }}</title>
   <meta name="title" content="{{ page_title }}"/>
   <meta name="description" content="{{ page_description }}"/>
-  <meta property="og:image" content="https://anamatoso.github.io/assets/img/AnaMatoso.jpeg"/>
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}biomedical engineering, deep learning, medical imaging, computational neuroscience, PhD student, IST, Portugal{% endif %}"/>
+  <meta name="author" content="Ana Matoso"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="language" content="en"/>
+  <meta name="revisit-after" content="7 days"/>
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:site_name" content="{{ page_title }}"/>
+  <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:type" content="{% if page_is_article %}article{% else %}website{% endif %}"/>
   <meta property="og:url" content="{{ page_url }}"/>
   <meta property="og:title" content="{{ page_title }}"/>
   <meta property="og:description" content="{{ page_description }}"/>
-  <meta property="og:image" content="https://anamatoso.github.io/assets/img/AnaMatoso.jpeg"/>
+  <meta property="og:image" content="{{ page_image }}"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="{% if page.og_image_alt %}{{ page.og_image_alt }}{% else %}Ana Matoso - Biomedical Engineering PhD Student{% endif %}"/>
+  {% if page_is_article %}
+    <meta property="article:author" content="Ana Matoso"/>
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+    {% if page.tags %}
+      {% for tag in page.tags %}
+        <meta property="article:tag" content="{{ tag }}"/>
+      {% endfor %}
+    {% endif %}
+  {% endif %}
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:url" content="{{ page_url }}"/>
+  <meta property="twitter:url" content="{{ page_url }}"/>
   <meta property="twitter:title" content="{{ page_title }}"/>
   <meta property="twitter:description" content="{{ page_description }}"/>
-  <meta property="twitter:image" content="https://anamatoso.github.io/assets/img/AnaMatoso.jpeg"/>
+  <meta property="twitter:image" content="{{ page_image }}"/>
+  <meta property="twitter:image:alt" content="{% if page.og_image_alt %}{{ page.og_image_alt }}{% else %}Ana Matoso - Biomedical Engineering PhD Student{% endif %}"/>
   {% if twitter_username %}
-    <meta property="twitter:creator" content="{{ twitter_username }}"/>
-    <meta property="twitter:site" content="{{ twitter_username }}"/>
+    <meta property="twitter:creator" content="{{ twitter_username }}"/>
+    <meta property="twitter:site" content="{{ twitter_username }}"/>
   {% endif %}
 
   <link rel="stylesheet preload" href="{{ "/assets/css/main.css" | absolute_url }}"/>
   <link rel="canonical preload" href="{{ page_url }}"/>
   <link rel="shortcut icon preload" href="{{ "/assets/favicon.ico" | absolute_url }}" type="image/x-icon"/>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if page_is_article %}Article{% else %}Person{% endif %}",
+    {% if page_is_article %}
+    "headline": "{{ page.title | escape }}",
+    "author": {
+      "@type": "Person",
+      "name": "Ana Matoso",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        "https://linkedin.com/in/anamatoso",
+        "https://github.com/anamatoso"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Ana Matoso"
+    },
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "description": "{{ page_description | escape }}",
+    "url": "{{ page_url }}",
+    "mainEntityOfPage": "{{ page_url }}",
+    {% if page.og_image %}
+    "image": "{{ page_image }}",
+    {% endif %}
+    {% if page.tags %}
+    "keywords": "{{ page.tags | join: ', ' | escape }}",
+    {% endif %}
+    "articleSection": "Blog"
+    {% else %}
+    "name": "Ana Matoso",
+    "jobTitle": "PhD Student in Biomedical Engineering",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Instituto Superior Técnico",
+      "url": "https://tecnico.ulisboa.pt"
+    },
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "Instituto Superior Técnico"
+    },
+    "description": "{{ page_description | escape }}",
+    "url": "{{ site.url }}",
+    "image": "{{ page_image }}",
+    "sameAs": [
+      "https://linkedin.com/in/anamatoso",
+      "https://github.com/anamatoso"
+    ],
+    "knowsAbout": [
+      "Biomedical Engineering",
+      "Deep Learning",
+      "Medical Imaging",
+      "Computational Neuroscience",
+      "Python",
+      "MATLAB",
+      "Machine Learning"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PT",
+      "addressLocality": "Lisbon"
+    }
+    {% endif %}
+  }
+  </script>
 
 </head>
 

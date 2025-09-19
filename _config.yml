@@ -39,6 +39,24 @@ sass:
     style: :compressed
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO Configuration
+seo:
+  type: "Person"
+  name: "Ana Matoso"
+  job_title: "PhD Student in Biomedical Engineering"
+  description: "PhD student in Biomedical Engineering at IST Lisbon, specializing in deep learning for medical imaging specifically glioma MRI."
+  url: "https://anamatoso.github.io"
+  image: "/assets/img/AnaMatoso.jpeg"
+  twitter:
+    username: "anamatoso"
+  social:
+    name: "Ana Matoso"
+    links:
+      - "https://linkedin.com/in/anamatoso"
+      - "https://github.com/anamatoso"
 
 # Excluded items
 exclude:

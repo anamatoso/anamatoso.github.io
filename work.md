@@ -1,6 +1,8 @@
 ---
 layout: work
-title: 
+title: "Published Work & Research"
+description: "Research publications, oral communications, and poster presentations by Ana Matoso in biomedical engineering, deep learning, and medical imaging. Including work on glioma treatment, migraine research, and computational neuroscience."
+keywords: "research publications, biomedical engineering, deep learning, medical imaging, glioma, migraine, computational neuroscience, ISMRM, academic papers"
 permalink: /work
 ---
 

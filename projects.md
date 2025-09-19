@@ -1,6 +1,8 @@
 ---
 layout: work
-title: Projects
+title: "Research Projects & Portfolio"
+description: "Portfolio of research projects by Ana Matoso including PhD work on deep learning for glioma treatment, master's thesis on migraine research, and various biomedical engineering projects using Python, MATLAB, and machine learning."
+keywords: "research projects, portfolio, deep learning, biomedical engineering, PhD projects, master thesis, machine learning, Python, MATLAB, medical imaging"
 slug: /projects
 ---
 
