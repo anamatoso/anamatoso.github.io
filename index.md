@@ -14,8 +14,6 @@ I currently work at [Institute for Systems and Robotics](https://welcome.isr.tec
 
 I love to learn and face new challenges since I am a very curious person. As an engineering graduate, I’ve acquired several skills throughout my progress, such as being proactive, organized, determined, and motivated to do a project even when faced with a conundrum. Besides, I consider myself a creative person who loves brainstorming and discussing new ideas.
 
-I love to learn and face new challenges since I am a very curious person. As an engineering graduate, I’ve acquired several skills throughout my progress, such as being proactive, organized, determined, and motivated to do a project even when faced with a conundrum. Besides, I consider myself a creative person who loves brainstorming and discussing new ideas.
-
 That being said, I aspire to make a difference in people’s lives by using technology and applying it to the healthcare field.
 
 I'm keen on:
