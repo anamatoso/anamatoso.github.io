@@ -3,6 +3,7 @@ layout: post
 title:  "Connect to remote machine without password with ssh"
 date:   2022-03-01 10:00:40
 draft: false
+featured: true
 blurb: "How to stop writing your password"
 og_image: /assets/img/content/publicprivatekey.png
 ---
