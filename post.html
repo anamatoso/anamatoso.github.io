@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Post - Ana Matoso</title>
+    <link href="templatemo-personal-style.css" rel="stylesheet">
+    <style>
+        .post-hero { max-width: 900px; margin: 2rem auto 1rem; }
+        .post-featured-image { width: 100%; max-height: 420px; object-fit: cover; border-radius: 8px; display:block; }
+        /* Stylized title below image */
+        .post-hero .title { font-size: 1.8rem; margin: 0.8rem 0 0.25rem 0; font-weight: 700; letter-spacing: -0.02em; color: #0f172a; }
+        .post-hero .date { color: #6b7280; margin-bottom: 0.75rem; }
+        .post-content { max-width: 900px; margin: 1rem auto 3rem; line-height: 1.7; }
+        /* Markdown heading styles inside posts */
+        .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
+            margin-top: 1.25rem; margin-bottom: 0.6rem;
+        }
+        .post-content h2 {
+            border-left: 4px solid #f59e0b; padding-left: 0.7rem; background: rgba(245,158,11,0.04); color: #0f172a;
+            border-radius: 4px; padding-top: 0.35rem; padding-bottom: 0.35rem;
+        }
+        .post-content h3 {
+            border-left: 3px solid #60a5fa; padding-left: 0.6rem; color: #0f172a;
+        }
+        .post-content h4 { color: #334155; font-weight:600; }
+        .post-content h5 { color: #475569; font-weight:600; font-size:0.98rem; }
+        .post-content h6 { color: #6b7280; font-weight:600; font-size:0.95rem; }
+        .back-link { display:inline-block; margin-top: 1rem; color: #374151; }
+        pre code { background: #0f172a; color: #e6eef8; padding: 1rem; display: block; border-radius: 6px; overflow:auto; }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a class="logo" href="index.html">Ana Matoso</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li><a href="work.html">Research</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
+            <li><a href="work.html">Research</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="post-hero container">
+            <a class="back-link" href="blog.html">← Back to Blog</a>
+            <img id="post-image" class="post-featured-image" src="" alt="" style="display:none;" />
+            <h1 id="post-title" class="title">Loading…</h1>
+            <div id="post-date" class="date"></div>
+        </div>
+
+        <article id="post-content" class="post-content container">
+            <p>Loading post…</p>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ana Matoso</p>
+        </div>
+    </footer>
+
+    <!-- marked (markdown parser) from CDN for simplicity -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        function parseFrontmatter(text) {
+            if (!text.startsWith('---')) return {meta: {}, body: text};
+            const end = text.indexOf('\n---', 3);
+            if (end === -1) return {meta: {}, body: text};
+            const metaRaw = text.slice(3, end+1).trim();
+            const body = text.slice(end+4).trim();
+            const meta = {};
+            metaRaw.split(/\n+/).forEach(line => {
+                const m = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+                if (m) {
+                    let key = m[1].trim();
+                    let val = m[2].trim();
+                    // remove surrounding quotes
+                    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+                        val = val.slice(1,-1);
+                    }
+                    meta[key] = val;
+                }
+            });
+            return {meta, body};
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const params = new URLSearchParams(location.search);
+            const file = params.get('file');
+            if (!file) {
+                document.getElementById('post-content').innerHTML = '<p>No file specified.</p>';
+                return;
+            }
+            // basic safety: only allow files inside posts/
+            if (!file.startsWith('posts/') || file.indexOf('..') !== -1) {
+                document.getElementById('post-content').innerHTML = '<p>Invalid file path.</p>';
+                return;
+            }
+            try {
+                const res = await fetch(file);
+                if (!res.ok) throw new Error('Fetch failed');
+                const text = await res.text();
+                const parsed = parseFrontmatter(text);
+                const meta = parsed.meta || {};
+                const body = parsed.body || '';
+
+                const title = meta.title || 'Post';
+                const date = meta.date || '';
+                const og = meta.og_image || '';
+
+                // show image first (if present), then set title/date below it
+                if (og) {
+                    const img = document.getElementById('post-image');
+                    img.src = og.replace(/^\"|\"$/g, '');
+                    img.style.display = 'block';
+                }
+                document.getElementById('post-title').textContent = title;
+                document.getElementById('post-date').textContent = date;
+
+                // Convert markdown to HTML using marked
+                const html = marked.parse(body);
+                const container = document.getElementById('post-content');
+                container.innerHTML = html;
+
+                // Add ids to headings and fix internal TOC links
+                function slugify(text) {
+                    if (!text) return '';
+                    // remove Liquid tags or HTML inside headings
+                    text = text.replace(/{{[^}]*}}/g, '');
+                    // normalize accents
+                    text = text.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+                    // fallback if Unicode property escapes not supported
+                    text = text.replace(/[\u0300-\u036f]/g, '');
+                    // lower, trim, replace spaces with -, remove invalid chars
+                    text = text.toLowerCase().trim();
+                    text = text.replace(/[^a-z0-9\s-]/g, '');
+                    text = text.replace(/\s+/g, '-');
+                    text = text.replace(/-+/g, '-');
+                    return text;
+                }
+
+                // assign ids to headings h1-h6 (include h5/h6 used in some posts)
+                const headings = container.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                headings.forEach(h => {
+                    if (!h.id) {
+                        const id = slugify(h.textContent || h.innerText || '');
+                        if (id) h.id = id;
+                    }
+                });
+
+                // adjust internal anchors that link to fragments (toc links)
+                const anchors = container.querySelectorAll('a[href^="#"]');
+                anchors.forEach(a => {
+                    try {
+                        const target = decodeURIComponent(a.getAttribute('href').slice(1));
+                        const newId = slugify(target || a.textContent || '');
+                        if (newId) a.setAttribute('href', '#' + newId);
+                    } catch (e) {
+                        // ignore malformed URIs
+                    }
+                });
+                // update document title
+                document.title = title + ' — Ana Matoso';
+            } catch (err) {
+                console.error(err);
+                document.getElementById('post-content').innerHTML = '<p>Could not load post.</p>';
+            }
+        });
+    </script>
+
+    <script src="templatemo-personal-javascripts.js"></script>
+</body>
+</html>

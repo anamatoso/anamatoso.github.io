@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ana Matoso</title>
+    <link href="templatemo-personal-style.css" rel="stylesheet">
+    <style>
+        /* Blog grid: 3 columns like Projects */
+        .blog-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        @media (max-width: 1000px) { .blog-list { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 640px) { .blog-list { grid-template-columns: 1fr; } }
+        .post-card { display: block; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(16,24,40,0.06); border: 1px solid #e6e6e6; text-decoration: none; color: inherit; }
+        .post-card .thumb { width: 100%; height: 180px; background-size: cover; background-position: center; }
+        .post-card .card-body { padding: 0.9rem 1rem; }
+        .post-card h3 { margin: 0 0 0.5rem 0; font-size: 1.05rem; }
+        .post-card .meta { color: #6b7280; font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .post-card .blurb { color: #374151; font-size: 0.95rem; }
+        .badge.featured { background: #f59e0b; color: white; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.8rem; float: right; }
+        /* small spacer at the end of the blog page */
+        .page-bottom-spacer { height: 64px; }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a class="logo" href="index.html">Ana Matoso</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li><a href="work.html">Research</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
+            <li><a href="work.html">Research</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main class="container">
+        <h1 class="section-title">Blog</h1>
+
+        <div class="blog-list">
+            <!-- Featured posts first -->
+            <a class="post-card" href="post.html?file=posts/2023-02-20-discord-webhook-bash.md">
+                <div class="thumb" style="background-image: url('images/webhook_discord.png');"></div>
+                <div class="card-body">
+                    <h3>How to create a webhook in Discord for bash scripts <span class="badge featured">Featured</span></h3>
+                    <div class="meta">2023-02-20</div>
+                    <div class="blurb">So that you get notified when a script finishes running</div>
+                </div>
+            </a>
+
+            <a class="post-card" href="post.html?file=posts/2022-03-01-sshpassword.md">
+                <div class="thumb" style="background-image: url('images/publicprivatekey.png');"></div>
+                <div class="card-body">
+                    <h3>Connect to remote machine without password with ssh <span class="badge featured">Featured</span></h3>
+                    <div class="meta">2022-03-01</div>
+                    <div class="blurb">How to stop writing your password</div>
+                </div>
+            </a>
+
+            <!-- Non-featured posts -->
+            <a class="post-card" href="post.html?file=posts/2024-08-31-apps-i-use.md">
+                <div class="thumb" style="background-image: url('images/apps.png');"></div>
+                <div class="card-body">
+                    <h3>Essential Apps</h3>
+                    <div class="meta">2024-08-31</div>
+                    <div class="blurb">The apps I use as a MacOS user</div>
+                </div>
+            </a>
+
+            <a class="post-card" href="post.html?file=posts/2023-12-07-arc-browser.md">
+                <div class="thumb" style="background-image: url('images/arc.png');"></div>
+                <div class="card-body">
+                    <h3>Arc Browser</h3>
+                    <div class="meta">2023-12-07</div>
+                    <div class="blurb">Why I changed to Arc browser</div>
+                </div>
+            </a>
+
+            <a class="post-card" href="post.html?file=posts/2022-08-01-change-terminal-format.md">
+                <div class="thumb" style="background-image: url('images/banner_terminal.png');"></div>
+                <div class="card-body">
+                    <h3>How to make the terminal colourful</h3>
+                    <div class="meta">2022-08-01</div>
+                    <div class="blurb">Make the terminal prettier to look at</div>
+                </div>
+            </a>
+
+            <a class="post-card" href="post.html?file=posts/2021-09-16-gastro-internship.md">
+                <div class="thumb" style="background-image: url('images/gastro_internship.jpg');"></div>
+                <div class="card-body">
+                    <h3>Observational internship in Hospital de Santa Maria</h3>
+                    <div class="meta">2021-09-16</div>
+                    <div class="blurb">My experience in the Gastroenterology Unit of Santa Maria Hospital</div>
+                </div>
+            </a>
+        </div>
+        <div class="page-bottom-spacer" aria-hidden="true"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ana Matoso</p>
+        </div>
+    </footer>
+
+<script src="templatemo-personal-javascripts.js"></script>
+</body>
+</html>
