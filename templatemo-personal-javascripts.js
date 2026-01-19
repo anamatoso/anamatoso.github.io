@@ -336,7 +336,7 @@ https://templatemo.com/tm-593-personal-shape
         }
     } catch (error) {
         // Error handling
-        submitBtn.textContent = 'Error - Try Again';
+        submitBtn.textContent = 'Loading...';
         submitBtn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
         
         setTimeout(() => {
