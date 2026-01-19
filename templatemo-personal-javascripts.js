@@ -289,7 +289,7 @@ https://templatemo.com/tm-593-personal-shape
 
         // Enhanced form submission with better UX
         document.querySelector('.contact-form').addEventListener('submit', async (e) => {
-    e.preventDefault();
+    ;
     const submitBtn = document.querySelector('.submit-btn');
     const originalText = submitBtn.textContent;
     const form = e.target;
