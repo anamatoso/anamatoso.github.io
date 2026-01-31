@@ -5,8 +5,11 @@ date:   2023-02-20 10:00:40
 draft: false
 featured: true
 blurb: "So that you get notified when a script finishes running"
-og_image: images/webhook_discord.png
+#og_image: images/webhook_discord.png
 ---
+
+<center><img src="./images/webhook_discord.png" width="600px"></center>
+
 
 #### Table of Contents
 1. [Introduction](#introduction)

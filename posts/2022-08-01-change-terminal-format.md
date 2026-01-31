@@ -4,8 +4,11 @@ title:  "How to make the terminal colourful"
 date:   2022-08-01 10:00:40
 draft: false
 blurb: "Make the terminal prettier to look at"
-og_image: images/banner_terminal.png
+#og_image: images/banner_terminal.png
 ---
+
+<center><img src="./images/banner_terminal.png" width="600px"></center>
+
 
 #### Table of Contents
 1. [Introduction](#introduction)

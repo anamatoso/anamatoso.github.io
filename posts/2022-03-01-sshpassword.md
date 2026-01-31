@@ -5,8 +5,11 @@ date:   2022-03-01 10:00:40
 draft: false
 featured: true
 blurb: "How to stop writing your password"
-og_image: images/publicprivatekey.png
+#og_image: images/publicprivatekey.png
 ---
+
+<center><img src="./images/publicprivatekey.png" width="600px"></center>
+
 
 #### Table of Contents
 1. [What are private and public keys?](#what-are-private-and-public-keys?)

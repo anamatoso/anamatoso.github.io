@@ -3,8 +3,11 @@ layout: post
 title:  "How to create a twitter bot"
 date:   2023-08-01 10:00:40
 draft: true
-og_image: images/banner_twitterbot.png
+#og_image: images/banner_twitterbot.png
 ---
+
+<center><img src="./images/banner_twitterbot.png" width="600px"></center>
+
 
 #### Table of Contents
 1. [Introduction](#introduction)

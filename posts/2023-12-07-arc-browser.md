@@ -4,8 +4,10 @@ date:   2023-12-07 10:00:40
 title: "Arc browser"
 draft: false
 blurb: "Why I changed to Arc browser"
-og_image: images/arc.png
+#og_image: images/arc.png
 ---
+
+<center><img src="./images/arc.png" width="600px"></center>
 
 
 The browsercompany is shaking up the stagnant browser market. If you haven't tried the arc browser yet, take a look. It's available for mac and on the waiting list for windows: [https://arc.net/](https://arc.net/). 
